@@ -55,9 +55,9 @@ then
 fi
 
 # execute tests
-export AVALANCHEGO_IP=$axia_ip
-export AVALANCHEGO_PORT=$(echo $axia_ports | cut -d" " -f1)
-echo testing on axia $AVALANCHEGO_IP:$AVALANCHEGO_PORT
+export AXIA_IP=$axia_ip
+export AXIA_PORT=$(echo $axia_ports | cut -d" " -f1)
+echo testing on axia $AXIA_IP:$AXIA_PORT
 cd $axiajs_location
 yarn test -i --roots e2e_tests
 

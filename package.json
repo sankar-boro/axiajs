@@ -32,13 +32,13 @@
     "blockchain",
     "defi"
   ],
-  "author": "Gabriel Cardona <gabriel@avalabs.org>",
+  "author": "Gabriel Cardona <gabriel@axiasystems.org>",
   "contributors": [
-    "Evan Richard <evan@avalabs.org>",
-    "Paul Kim <paul.kim@avalabs.org>",
-    "Raj Ranjan <raj.ranjan@avalabs.org>",
-    "Gergely Lovas <gergely.lovas@avalabs.org>",
-    "Dhruba Basu <dhruba@avalabs.org>"
+    "Evan Richard <evan@axiasystems.org>",
+    "Paul Kim <paul.kim@axiasystems.org>",
+    "Raj Ranjan <raj.ranjan@axiasystems.org>",
+    "Gergely Lovas <gergely.lovas@axiasystems.org>",
+    "Dhruba Basu <dhruba@axiasystems.org>"
   ],
   "license": "BSD-3-Clause",
   "bugs": {
