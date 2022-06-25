@@ -1,9 +1,5 @@
 import { Axia } from "axia/dist"
-import {
-  PlatformVMAPI,
-  KeyChain,
-  KeyPair
-} from "axia/dist/apis/platformvm"
+import { PlatformVMAPI, KeyChain, KeyPair } from "axia/dist/apis/platformvm"
 
 const ip: string = "localhost"
 const port: number = 9650

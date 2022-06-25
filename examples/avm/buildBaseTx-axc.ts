@@ -1,11 +1,5 @@
 import { Axia, BN, Buffer } from "axia/dist"
-import {
-  AVMAPI,
-  KeyChain,
-  UTXOSet,
-  UnsignedTx,
-  Tx
-} from "axia/dist/apis/avm"
+import { AVMAPI, KeyChain, UTXOSet, UnsignedTx, Tx } from "axia/dist/apis/avm"
 import {
   GetBalanceResponse,
   GetUTXOsResponse
@@ -23,13 +17,7 @@ const protocol: string = "http"
 const networkID: number = 1337
 const xBlockchainID: string = Defaults.network[networkID].X.blockchainID
 const axcAssetID: string = Defaults.network[networkID].X.axcAssetID
-const axia: Axia = new Axia(
-  ip,
-  port,
-  protocol,
-  networkID,
-  xBlockchainID
-)
+const axia: Axia = new Axia(ip, port, protocol, networkID, xBlockchainID)
 const xchain: AVMAPI = axia.XChain()
 const xKeychain: KeyChain = xchain.keyChain()
 const privKey: string = `${PrivateKeyPrefix}${DefaultLocalGenesisPrivateKey}`

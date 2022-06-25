@@ -41,7 +41,9 @@ const inputs: TransferableInput[] = []
 const fee: BN = xchain.getDefaultTxFee()
 const threshold: number = 1
 const locktime: BN = new BN(0)
-const memo: Buffer = Buffer.from("Manually Export AXC from SwapChain to AXChain")
+const memo: Buffer = Buffer.from(
+  "Manually Export AXC from SwapChain to AXChain"
+)
 // Uncomment for codecID 00 01
 // const codecID: number = 1
 

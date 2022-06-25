@@ -1,11 +1,5 @@
 import { Axia, BN, Buffer } from "axia/dist"
-import {
-  AVMAPI,
-  KeyChain,
-  UTXOSet,
-  UnsignedTx,
-  Tx
-} from "axia/dist/apis/avm"
+import { AVMAPI, KeyChain, UTXOSet, UnsignedTx, Tx } from "axia/dist/apis/avm"
 import { GetUTXOsResponse } from "axia/dist/apis/avm/interfaces"
 import {
   PrivateKeyPrefix,
